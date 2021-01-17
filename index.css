@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: "Lemonada", cursive;
+  }
+  h1 {
+    color: white;
+    font-size: 55px;
+  }
+  h3 {
+    color: white;
+  }
+  #score {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .grid {
+    height: 25rem;
+    width: 25rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+  }
+  .container-panel {
+    margin: auto;
+  }
+  .pressedBomb {
+    background-color: red;
+    /* background-image: url(https://img.icons8.com/emoji/48/000000/bomb-emoji.png);
+    background-position: center;
+    background-size: cover; */
+  }
+  .pressedSafe {
+    background-color: #00d7c3;
+  }
+  #resetButton {
+    margin: 5% 0 2% 0;
+    font-size: large;
+    padding: 10px 20px;
+  }
+  .button {
+    width: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .button-1 {
+    background-color: transparent;
+    border: 3px solid #00d7c3;
+    border-radius: 50px;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    color: #00d7c3;
+  }
+  .button-1:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;
+  }
