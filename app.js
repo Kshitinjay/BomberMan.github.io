@@ -36,6 +36,7 @@ var random = [];
         }
       }
 
+
       function checkCell() {
         if (random.indexOf(Number(this.value)) == -1) {
           document.getElementById(this.id).classList.add("pressedSafe");
@@ -55,6 +56,7 @@ var random = [];
               .classList.add("pressedBomb");
           }
           document.getElementById("resultDisplay").textContent = "Game Over";
+          var x = document.getElementById("bomb-icon").style.color="red";
           diasableGrid();
         }
       }

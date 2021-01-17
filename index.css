@@ -1,3 +1,6 @@
+*{
+  padding: 2px;
+}
 body {
     background-color: black;
     text-align: center;
@@ -5,7 +8,7 @@ body {
   }
   h1 {
     color: white;
-    font-size: 55px;
+    /* font-size: 55px; */
   }
   h3 {
     color: white;
@@ -13,12 +16,12 @@ body {
   #score {
     color: white;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
   }
   .grid {
-    height: 25rem;
-    width: 25rem;
+    height: 22rem;
+    width: 22rem;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -29,9 +32,6 @@ body {
   }
   .pressedBomb {
     background-color: red;
-    /* background-image: url(https://img.icons8.com/emoji/48/000000/bomb-emoji.png);
-    background-position: center;
-    background-size: cover; */
   }
   .pressedSafe {
     background-color: #00d7c3;
